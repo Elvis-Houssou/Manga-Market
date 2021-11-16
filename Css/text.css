@@ -1,0 +1,63 @@
+h1 {
+  font-size: 25px;
+  font-family: "Anime Ace 2.0 BB", arial;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: black;
+}
+
+.text_section {
+  padding: 5% 4%;
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 35px;
+    font-family: "Anime Ace 2.0 BB", arial;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  b {
+    color: black;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: lighter;
+  }
+
+  .text_section {
+    padding: 0% 4%;
+    width: 50%;
+  }
+}

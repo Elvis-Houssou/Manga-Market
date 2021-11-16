@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../images/maxresdefault.png");
+  background-size: 355vh;
+  background-position-x: -2300px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../images/maxresdefault.png");
+    background-size: cover;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+  }
+}
+
+.sub_body {
+  display: none;
+}
+
+.block_tomes {
+  margin-top: 150px;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.tomes {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  font-family: "Anime Ace 2.0 BB", arial;
+  color: black;
+}
+
+.sort_by {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 2% 0;
+  padding-left: 25px;
+}
+
+#try_for1 {
+  background: none;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+#try_for {
+  background: none;
+  border: none;
+  color: white;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.abc_letter h3 b {
+  color: red;
+}
+
+.block_A h1 {
+  text-align: left;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.block_B h1 {
+  text-align: left;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.block_list {
+  border-top: 2px solid black;
+  padding: 3% 0;
+}
+
+.line_1 {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.img_block {
+  display: flex;
+}
+
+.sold {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 500px;
+  align-items: center;
+  text-align: center;
+  margin-left: -60px;
+  margin-top: 10px;
+}
+
+.sold h4 {
+  margin-left: 7px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.buffer {
+  width: 20px;
+  height: 10px;
+  background-color: black;
+}
+
+.page_number {
+  border-bottom: 2px solid black;
+  text-align: right;
+}
+
+.page_number h2 {
+  margin-right: 20px;
+}
+
+/*mode pc page 2 : tomes*/
+
+@media screen and (min-width: 700px) {
+  .ens_sets {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 250px;
+  }
+
+  .sub_body {
+    display: initial;
+  }
+
+  .stocks_sets {
+    display: inline-block;
+  }
+
+  .stocks_sets h1 {
+    text-align: left;
+    color: white;
+  }
+
+  .newstocks {
+    background-color: white;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 2% 3%;
+  }
+
+  .oldstocks {
+    background-color: white;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 2% 3%;
+  }
+
+  .stocks {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .name {
+    font-family: "Anime Ace 2.0 BB", arial;
+  }
+
+  .name h3 {
+    font-size: 15px;
+    color: red;
+  }
+
+  .block_tomes {
+    margin-top: 0px;
+    display: inline-block;
+    width: 60%;
+    color: white;
+    text-align: center;
+  }
+
+  .block_tomes h1 {
+    text-align: left;
+  }
+
+  #try_for1 {
+    font-size: 20px;
+  }
+
+  #try_for {
+    font-size: 20px;
+  }
+  
+  .sold h4 {
+    font-size: 10px;
+  }
+
+  .line_1 {
+      margin-right: 15px;
+  }
+
+  .line_1 h3 {
+      font-size: 15px;
+  }
+
+  .line_1 h4 {
+    font-size: 10px;
+}
+}

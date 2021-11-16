@@ -1,0 +1,105 @@
+:root {
+  --background-color-btn: black;
+  --background-color-btn1: red;
+}
+
+.fa-shopping-cart {
+  color: white;
+}
+
+.add_panier {
+  margin-top: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.add_panier button {
+  cursor: pointer;
+  background-color: var(--background-color-btn);
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 3%;
+  border: none;
+  border-radius: 50px;
+}
+
+.plus {
+  margin-top: 55px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: -50px;
+}
+
+.plus button {
+  cursor: pointer;
+  background-color: var(--background-color-btn1);
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 3%;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 55px;
+}
+
+.sort_by button {
+  cursor: pointer;
+  padding: 2%;
+  background-color: var(--background-color-btn1);
+  border: none;
+  border-radius: 10px;
+  opacity: 0.6;
+  margin-right: 25px;
+}
+
+.fa-sort-amount-down {
+  color: white;
+}
+
+.fa-exclamation-circle {
+  color: white;
+}
+
+@media screen and (min-width: 700px) {
+  .add_panier button {
+    padding: 1%;
+  }
+
+  .plus button {
+    padding: 1%;
+  }
+
+  .stocks_sets button {
+    background-color: var(--background-color-btn1);
+    color: white;
+    border: none;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .stocks_sets button a {
+    color: white;
+  }
+
+  .sort_by button {
+    padding: 2% 1%;
+    background-color: var(--background-color-btn1);
+    border: none;
+    border-radius: 10px;
+    opacity: 0.6;
+    margin-right: 50px;
+    width: 250px;
+  }
+  
+  .fa-sort-amount-down {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .fa-exclamation-circle {
+    color: white;
+    font-size: 20px;
+  }
+}

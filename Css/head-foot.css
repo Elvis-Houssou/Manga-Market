@@ -1,0 +1,265 @@
+:root {
+  --background-color: white;
+  --padding: 15px 15px;
+  --color: black;
+}
+
+header {
+  display: flex;
+  background-color: var(--background-color);
+  top: 0;
+  position: fixed;
+  color: var(--color);
+  transition: 0.3;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+  padding: var(--padding);
+  box-shadow: 5px 5px 10px black;
+  z-index: 4;
+  font-family: "Anime Ace 2.0 BB", arial;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#M_Market {
+  width: 35%;
+  z-index: 5;
+}
+
+.search_bar {
+  display: none;
+}
+
+.search_bar input {
+  text-align: center;
+  align-items: center;
+  border: none;
+  width: 370px;
+  padding: 15px;
+  font-family: "Anime Ace 2.0 BB", arial;
+  background: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search_bar input::placeholder {
+  font-size: 20px;
+  color: black;
+}
+
+.head_title {
+  width: 50%;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  margin: 0 0;
+}
+
+.bvn {
+  height: 350px;
+  max-width: 100%;
+  max-height: 5=300px;
+  background-color: white;
+  margin-top: 150px;
+  display: inline-block;
+  padding: 10% 0;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px black;
+}
+
+/*slider*/
+
+.bg1 {
+  background-image: url("../images/bienvenu.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg2 {
+  background-image: url("../images/all might salut.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg3 {
+  background-image: url("../images/ichigo salut.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg4 {
+  background-image: url("../images/isoka salut.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  margin-top: 30px;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px black;
+}
+
+.slider {
+  height: 100%;
+  width: 400%;
+  display: flex;
+}
+
+.slide {
+  height: 100%;
+  width: 100%;
+  animation: 10s slide ease-in-out infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  35% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  85% {
+    transform: translateX(-300%);
+  }
+}
+
+/*slide*/
+
+/*POPULARY*/
+
+.preview {
+  margin-top: 0px;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  opacity: 0.8;
+}
+
+.first_book {
+  display: inline-block;
+  margin-top: 45px;
+  text-align: left;
+  align-items: center;
+}
+
+.second_book {
+  display: inline-block;
+  margin-top: 45px;
+  text-align: right;
+  align-items: center;
+}
+
+.book_title {
+  background-color: black;
+  width: 40%;
+  color: white;
+  padding: 0px 15%;
+  border-radius: 50px;
+  font-family: "Anime Ace 2.0 BB", arial;
+}
+
+.book_title2 {
+  background-color: black;
+  margin-left: 150px;
+  color: white;
+  padding: 0px 15%;
+  border-radius: 50px;
+  font-family: "Anime Ace 2.0 BB", arial;
+}
+
+.book_title h2 {
+  padding: 5px 0px;
+}
+
+.book_title2 h2 {
+  padding: 5px 0px;
+}
+
+.script {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.script img {
+  width: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: white;
+  width: 100%;
+  z-index: 5;
+  bottom: 0;
+  padding: 15px 0%;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+
+.foot_block {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  width: 80%;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.insta {
+  display: flex;
+  align-items: center;
+}
+
+.fa-instagram {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.wha {
+  display: flex;
+  align-items: center;
+}
+
+.fa-whatsapp {
+  margin-right: 10px;
+  font-size: 20px;
+}
