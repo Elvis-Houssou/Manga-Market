@@ -3,6 +3,10 @@
   --background-color-btn1: red;
 }
 
+button {
+  cursor: pointer;
+}
+
 .fa-shopping-cart {
   color: white;
 }
