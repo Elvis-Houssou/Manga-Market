@@ -61,6 +61,22 @@
   color: white;
 }
 
+.fa-book {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(255, 112, 112);
+}
+
+.book_price button {
+  background-color: rgb(255, 100, 100);
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 2%;
+}
+
 @media screen and (min-width: 700px) {
   .add_panier button {
     padding: 1%;
@@ -92,14 +108,28 @@
     margin-right: 50px;
     width: 250px;
   }
-  
+
   .fa-sort-amount-down {
     color: white;
     font-size: 20px;
   }
-  
+
   .fa-exclamation-circle {
     color: white;
     font-size: 20px;
+  }
+
+  .fa-book {
+    font-size: 40px;
+    margin-left: 150px;
+    margin-right: 20px;
+    color: rgb(255, 112, 112);
+  }
+
+  .book_price button {
+    width: 300px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
