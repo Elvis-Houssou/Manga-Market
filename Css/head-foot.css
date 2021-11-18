@@ -60,6 +60,11 @@ header {
   align-items: center;
 }
 
+.head_title img {
+  width: 8%;
+}
+
+
 .container {
   margin: 0 0;
 }

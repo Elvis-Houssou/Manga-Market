@@ -1,6 +1,7 @@
 :root {
   --background-color-btn: black;
   --background-color-btn1: red;
+  --color-icons: white;
 }
 
 button {
@@ -54,7 +55,9 @@ button {
   border: none;
   border-radius: 10px;
   opacity: 0.6;
-  margin-right: 25px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .fa-sort-amount-down {
@@ -105,29 +108,23 @@ button {
 
   .sort_by button {
     padding: 2% 1%;
-    background-color: var(--background-color-btn1);
-    border: none;
-    border-radius: 10px;
-    opacity: 0.6;
-    margin-right: 50px;
-    width: 250px;
+    margin-left: 80px;
   }
 
   .fa-sort-amount-down {
-    color: white;
     font-size: 20px;
+    color: white;
   }
 
   .fa-exclamation-circle {
-    color: white;
     font-size: 20px;
+    color: var(--color-icons);
   }
 
   .fa-book {
     font-size: 40px;
     margin-left: 150px;
     margin-right: 20px;
-    color: rgb(255, 112, 112);
   }
 
   .book_price button {

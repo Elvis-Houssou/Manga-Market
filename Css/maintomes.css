@@ -47,6 +47,9 @@ body {
   border-bottom: 2px solid black;
   padding: 2% 0;
   padding-left: 25px;
+  display: flex;
+  margin-left: -10px;
+  align-items: center;
 }
 
 #try_for1 {
@@ -64,6 +67,8 @@ body {
   outline: none;
   appearance: none;
   cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .abc_letter h3 b {
@@ -135,6 +140,10 @@ body {
   margin-right: 20px;
 }
 
+.ens_sets {
+  opacity: 0.8;
+}
+
 /*mode pc page 2 : tomes*/
 
 @media screen and (min-width: 700px) {
@@ -197,15 +206,20 @@ body {
   }
 
   .block_tomes {
-    margin-top: 0px;
-    display: inline-block;
+    margin-top: -95px;
     width: 60%;
     color: white;
-    text-align: center;
   }
 
   .block_tomes h1 {
     text-align: left;
+  }
+
+  .sort_by {
+    padding-left: 105px;
+    margin-left: 0px;
+    align-items: center;
+    
   }
 
   #try_for1 {

@@ -1,14 +1,14 @@
 h1 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Anime Ace 2.0 BB", arial;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 h4 {
@@ -34,7 +34,6 @@ li a {
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 35px;
-    font-family: "Anime Ace 2.0 BB", arial;
   }
 
   h2 {

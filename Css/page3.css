@@ -4,16 +4,12 @@
   display: none;
 }
 
-.block_tomes {
+.block_tomes2 {
+  margin-top: 150px;
   display: inline-block;
   background-color: white;
   color: black;
-  padding: 2% 0;
-  width: 100%;
-}
-
-.description_block {
-  width: 100%;
+  padding: 2% 0px;
 }
 
 .book_title {
@@ -21,19 +17,22 @@
   align-items: center;
   text-align: center;
   margin-left: 10px;
-  padding: 2% 3%;
+  padding: 2% 0%;
   background-color: black;
   width: 90%;
   margin-bottom: 35px;
 }
 
-.book_title h2 {
-  font-size: 15px;
+.book_descript {
+  align-items: center;
+  text-align: center;
 }
+
 
 .book_text h3 {
   color: red;
 }
+
 
 .book_text b {
   color: black;
@@ -43,11 +42,15 @@
   color: red;
 }
 
+.book img {
+  width: 70%;
+}
+
 .book_price {
   display: flex;
   width: 97%;
   background-color: gray;
-  padding: 2%;
+  padding: 2% 1.5%;
   justify-content: space-between;
   margin-bottom: 20px;
 }
@@ -61,6 +64,10 @@
     width: 100%;
     max-width: 95%;
     padding: 3%;
+  }
+
+  .block_tomes2 {
+    margin-top: 0px;
   }
 
   .my_aset h2 {
@@ -148,17 +155,12 @@
     font-size: 20px;
   }
 
-  .fa-exclamation-circle {
+  .rond {
     color: black;
   }
 
-  .ens_sets {
-      width: 100%;
-      justify-content: space-between;
-      align-items: stretch;
-  }
 
-  .block_tomes {
+  .block_tomes2 {
     width: 65%;
   }
 
@@ -172,14 +174,7 @@
   }
 
   .book_title {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 10px;
-    padding: 0% 2%;
-    background-color: black;
     width: 93%;
-    margin-bottom: 35px;
   }
   
   .book_title h2 {
@@ -189,12 +184,9 @@
   }
 
   .book_price {
-    display: flex;
     width: 100%;
-    background-color: gray;
     padding: 0%;
     justify-content: space-between;
-    margin-bottom: 20px;
   }
 
   .book_price h1 {
