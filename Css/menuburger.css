@@ -25,6 +25,10 @@
   margin-left: -10px;
 }
 
+.closeMenu {
+  margin-top: -10px;
+}
+
 .fa-times {
   font-size: 30px;
   color: red;
@@ -55,6 +59,10 @@
 .mainMenu li a:hover {
   color: red;
   transition: 0.2s ease-in-out;
+}
+
+#profil_logo2 {
+  width: 15%;
 }
 
 @media screen and (min-width: 700px) {
