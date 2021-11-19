@@ -25,10 +25,23 @@
 
   .search_bar {
     display: initial;
+    width: 25%;
+  }
+
+  .search_bar input {
+    text-align: center;
+    align-items: center;
+    border: none;
+    width: 70%;
+    padding: 15px;
+    font-family: "Anime Ace 2.0 BB", arial;
+    background: none;
+    outline: none;
+    font-size: 1rem;
   }
 
   .search_bar input::placeholder {
-    font-size: 20px;
+    font-size: 15px;
     color: black;
   }
 
@@ -49,7 +62,7 @@
   }
 
   .bvn {
-    height: 380px;
+    height: 30%;
     width: 100%;
     display: flex;
     padding: 2% 0;
@@ -94,7 +107,8 @@
 
   .bolck_text {
     margin-top: 0px;
-    max-width: 500px;
+    padding: 2% 4%;
+    max-width: 40%;
     text-align: left;
     align-items: center;
   }
@@ -103,15 +117,49 @@
 /*footer*/
 
 @media screen and (min-width: 700px) {
+  
   footer {
+    margin-top: 30px;
+    background-color: white;
+    width: 100%;
+    z-index: 5;
+    bottom: 0;
+    padding: 15px 0%;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
     box-shadow: -5px -5px 10px black;
   }
 
+  .foot_block {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .insta {
+    display: flex;
+    align-items: center;
+  }
+
   .fa-instagram {
-    font-size: 50px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  .wha {
+    display: flex;
+    align-items: center;
   }
 
   .fa-whatsapp {
-    font-size: 50px;
+    margin-right: 10px;
+    font-size: 20px;
   }
 }

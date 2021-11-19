@@ -46,6 +46,10 @@
   width: 70%;
 }
 
+.book_price h1 {
+  font-size: 15px;
+}
+
 .book_price {
   display: flex;
   width: 97%;
@@ -83,6 +87,8 @@
 
   .aset_block {
     display: inline-block;
+    width: 100%;
+    margin-right: 40px;
   }
 
   .list_img {
@@ -99,7 +105,9 @@
     background-color: rgb(236, 236, 236);
     align-items: center;
     text-align: left;
-    padding: 1px 150px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 35%;
     z-index: +3;
   }
 
@@ -190,6 +198,7 @@
   }
 
   .book_price h1 {
+    font-size: 30px;
       margin-left: 100px;
   }
   

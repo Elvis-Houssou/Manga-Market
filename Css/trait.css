@@ -11,8 +11,6 @@
   border-radius: var(--border-radius);
   background-color: red;
   height: 40px;
-  margin-right: -80px;
-  margin-left: -50px;
 }
 
 .bar_contour2 {
@@ -22,13 +20,12 @@
   border-radius: var(--border-radius);
   background-color: red;
   height: 40px;
-  margin-left: -50px;
 }
 
 .surlign1 {
   border: var(--border);
   border-radius: var(--border-radius);
-  width: 330px;
+  width: 100%;
   margin-left: 0%;
 }
 
@@ -36,7 +33,7 @@
   margin-top: 25px;
   border: var(--border);
   border-radius: var(--border-radius);
-  width: 270px;
+  width: 80%;
   margin-left: 7%;
   opacity: 0.7;
 }
@@ -45,7 +42,7 @@
   margin-top: 25px;
   border: var(--border);
   border-radius: var(--border-radius);
-  width: 220px;
+  width: 60%;
   margin-left: 15%;
   opacity: 0.5;
 }
@@ -53,7 +50,7 @@
 .surlign4 {
   border: var(--border);
   border-radius: var(--border-radius);
-  width: 300px;
+  width: 75%;
   margin-left: 9%;
 }
 
@@ -61,7 +58,7 @@
   margin-top: 25px;
   border: var(--border);
   border-radius: var(--border-radius);
-  width: 200px;
+  width: 55%;
   margin-left: 9%;
   opacity: 0.7;
 }
@@ -70,7 +67,7 @@
   margin-top: 25px;
   border: var(--border);
   border-radius: var(--border-radius);
-  width: 150px;
+  width: 35%;
   margin-left: 9%;
   opacity: 0.5;
 }
@@ -81,28 +78,29 @@
   }
 
   .surlign1 {
-    width: 550px;
+    width: 75%;
   }
 
   .surlign2 {
-    width: 450px;
+    width: 60%;
   }
 
   .surlign3 {
-    width: 350px;
+    width: 45%;
   }
 
   .surlign4 {
-    width: 400px;
+    width: 25%;
     margin-left: 34.5%;
   }
 
   .surlign5 {
-    width: 300px;
+    width: 15%;
     margin-left: 34.5%;
   }
 
   .surlign6 {
+    width: 8%;
     margin-left: 34.5%;
   }
 }

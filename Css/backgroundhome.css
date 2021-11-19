@@ -3,8 +3,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-image: url("../images/arrière.jpg");
-  background-size: 655vh;
-  background-position-x: -1900px;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -15,7 +15,6 @@ body {
     box-sizing: border-box;
     background-image: url("../images/arrière.jpg");
     background-size: cover;
-    background-position-x: 0px;
     background-repeat: no-repeat;
   }
 }

@@ -78,10 +78,10 @@ button {
 .book_price button {
   background-color: rgb(255, 100, 100);
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   border: none;
   border-radius: 10px;
-  padding: 2%;
+  padding: 2% 2%;
 }
 
 @media screen and (min-width: 700px) {
@@ -107,8 +107,9 @@ button {
   }
 
   .sort_by button {
-    padding: 2% 1%;
-    margin-left: 80px;
+    padding: 2% 2%;
+    margin-left: 0%;
+    margin-right: 0px;
   }
 
   .fa-sort-amount-down {

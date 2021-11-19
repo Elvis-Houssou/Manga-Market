@@ -36,23 +36,6 @@ header {
   display: none;
 }
 
-.search_bar input {
-  text-align: center;
-  align-items: center;
-  border: none;
-  width: 370px;
-  padding: 15px;
-  font-family: "Anime Ace 2.0 BB", arial;
-  background: none;
-  outline: none;
-  font-size: 1rem;
-}
-
-.search_bar input::placeholder {
-  font-size: 20px;
-  color: black;
-}
-
 .head_title {
   width: 50%;
   display: none;
@@ -241,17 +224,17 @@ footer {
   display: inline-block;
   text-align: center;
   align-items: center;
-  width: 80%;
 }
 
 .contact {
-  display: flex;
-  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
 .insta {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .fa-instagram {
