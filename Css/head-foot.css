@@ -247,6 +247,10 @@ footer {
   align-items: center;
 }
 
+.wha h2 {
+  color: black;
+}
+
 .fa-whatsapp {
   margin-right: 10px;
   font-size: 20px;

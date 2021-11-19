@@ -34,33 +34,22 @@
       </ul>
 
       <!-- barre menu responsive debut -->
-      <nav role="navigation">
+      <div class="burger_menu">
+        <span class="burger">
+          <div class="first_bar"></div>
+          <div class="second_bar"></div>
+        </span>
+        <span class="mainMenu">
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+          <li>
+            <img src="Images/profil.png" alt="" id="profil_logo2">
+          </li>
+          <li><a href="#" id="inside">Accueil</a></li>
+          <li><a href="Tomes/index.html">Tomes</a></li>
+          <li><a href="Panier/index.html">Panier</a></li>
+        </span>
+      </div>
 
-        <div id="menuToggle">
-          <!--use for the cheked selector, it's an hidden chekbox -->
-          <input type="checkbox" />
-
-          <!-- burger icon -->
-          <span class="b1"></span>
-          <span class="b2"></span>
-
-          <!-- menu background and services -->
-          <ul id="menu">
-            <img src="Images/profil.png" alt="" id="profil_logo">
-            <a href="#">
-              <li>Accueil</li>
-            </a>
-            <a href="Tomes/index.html">
-              <li>Tomes</li>
-            </a>
-            <a href="Panier/index.html">
-              <li>Panier</li>
-            </a>
-          </ul>
-
-        </div>
-
-      </nav>
       <!-- barre menu responsive fin -->
 
     </div>
@@ -195,6 +184,8 @@
       <h2>Merci a vous d'etres de fidèles Otakus...</h2>
     </div>
   </footer>
+
+  <script src="js/manga.js"></script>
 
 </body>
 
