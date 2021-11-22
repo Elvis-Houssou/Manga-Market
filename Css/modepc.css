@@ -138,6 +138,10 @@
     width: 80%;
   }
 
+  .foot_block h2 {  
+    font-size: 25px;
+  }
+
   .contact {
     display: flex;
     justify-content: space-between;

@@ -31,6 +31,14 @@ li a {
   padding: 5% 4%;
 }
 
+.book_text h3 {
+  font-family: "Anime Ace 2.0 BB", arial;
+}
+
+.book_text b {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 35px;
