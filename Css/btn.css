@@ -70,18 +70,19 @@ button {
 
 .fa-book {
   font-size: 25px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
   color: rgb(255, 112, 112);
 }
 
 .book_price button {
   background-color: rgb(255, 100, 100);
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   border: none;
   border-radius: 10px;
   padding: 2% 2%;
+  width: 40%;
 }
 
 @media screen and (min-width: 700px) {
@@ -112,6 +113,10 @@ button {
     margin-right: 0px;
   }
 
+  #try_for {
+    width: 100%;
+  }
+
   .fa-sort-amount-down {
     font-size: 20px;
     color: white;
@@ -129,9 +134,13 @@ button {
   }
 
   .book_price button {
-    width: 300px;
+    width: 25%;
     margin-right: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .plus {
+    margin-left: 2%
   }
 }
