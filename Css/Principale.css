@@ -6,4 +6,7 @@
 @import url("menuburger.css");
 @import url("modepc.css");
 
-@import url(https://allfont.net/allfont.css?fonts=anime-ace-20-bb);
+@font-face {
+    font-family: "animeace2_bld";
+    src: url(../font/animeace2_bld.otf) format("truetype");
+}
