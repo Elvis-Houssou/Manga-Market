@@ -75,7 +75,7 @@
   .my_aset h2 {
     font-size: 35px;
     align-items: center;
-    font-family: "Anime Ace 2.0 BB", arial;
+    font-family: "animeace2_bld";
   }
 
   .aset_list {
@@ -119,7 +119,7 @@
   .list_text h3 {
     color: red;
     margin-bottom: 0px;
-    font-family: "Anime Ace 2.0 BB", arial;
+    font-family: "animeace2_bld";
   }
 
   .list_text h4 {
@@ -152,7 +152,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: "Anime Ace 2.0 BB", arial;
+    font-family: "animeace2_bld";
   }
 
   .descript_list h4 {
