@@ -95,7 +95,6 @@ body {
 }
 
 .line_1 {
-  cursor: pointer;
   display: inline-block;
   margin-bottom: 50px;
 }
@@ -103,6 +102,12 @@ body {
 .line_1 a {
   text-decoration: none;
   color: black;
+}
+
+.line_1 a h4:hover {
+  text-decoration: none;
+  color: red;
+  transition: 0.3s ease;
 }
 
 .img_block {
