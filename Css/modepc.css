@@ -37,11 +37,11 @@
     font-family: "animeace2_bld";
     background: none;
     outline: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .search_bar input::placeholder {
-    font-size: 15px;
+    font-size: 13px;
     color: black;
   }
 
