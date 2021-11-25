@@ -9,10 +9,10 @@ closeMenu.addEventListener("click", close);
 function show() {
   mainMenu.style.display = "initial";
   mainMenu.style.right = "0";
-  mainMenu.style.transition = "1s"
+  mainMenu.style.transition = "1s";
 }
 
 function close() {
   mainMenu.style.right = "-150%";
-  mainMenu.style.transition = "1s"
+  mainMenu.style.transition = "1s";
 }

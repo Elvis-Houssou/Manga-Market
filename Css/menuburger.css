@@ -1,3 +1,5 @@
+/*menu hamburger responsive*/
+
 .burger_menu {
   display: initial;
 }
@@ -68,5 +70,5 @@
 @media screen and (min-width: 700px) {
   .burger_menu {
     display: none;
-  }  
+  }
 }

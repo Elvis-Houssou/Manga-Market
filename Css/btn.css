@@ -1,11 +1,9 @@
+/*CSS bouton par defaut*/
+
 :root {
   --background-color-btn: black;
   --background-color-btn1: red;
   --color-icons: white;
-}
-
-button {
-  cursor: pointer;
 }
 
 .fa-shopping-cart {
@@ -148,6 +146,6 @@ button {
   }
 
   .plus {
-    margin-left: 2%
+    margin-left: 2%;
   }
 }

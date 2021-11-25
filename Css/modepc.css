@@ -1,3 +1,5 @@
+/*responsive destkop*/
+
 /*head deskop*/
 
 @media screen and (min-width: 700px) {
@@ -77,7 +79,7 @@
   }
 }
 
-/*POPULARY*/
+/*Article*/
 
 @media screen and (min-width: 700px) {
   .preview {
@@ -117,7 +119,6 @@
 /*footer*/
 
 @media screen and (min-width: 700px) {
-  
   footer {
     margin-top: 30px;
     background-color: white;
@@ -138,7 +139,7 @@
     width: 80%;
   }
 
-  .foot_block h2 {  
+  .foot_block h2 {
     font-size: 25px;
   }
 

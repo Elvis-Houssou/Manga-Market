@@ -1,3 +1,5 @@
+/*Css principale des pages panier de tomes*/
+
 @import url("head-foot.css");
 @import url("btn.css");
 @import url("text.css");
@@ -9,6 +11,6 @@
 @import url("anime.css");
 
 @font-face {
-    font-family: "animeace2_bld";
-    src: url(../font/animeace2_bld.otf) format("truetype");
+  font-family: "animeace2_bld";
+  src: url(../font/animeace2_bld.otf) format("truetype");
 }

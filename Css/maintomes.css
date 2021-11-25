@@ -1,23 +1,10 @@
+/*deuxieme page: tomes, mobile first*/
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-image: url("../images/maxresdefault.png");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-@media screen and (min-width: 700px) {
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url("../images/maxresdefault.png");
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
 }
 
 .sub_body {
@@ -181,7 +168,8 @@ body {
   .stocks_sets h1 {
     text-align: left;
     color: white;
-    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px,
+      #000000 1px -1px;
   }
 
   .newstocks {
@@ -192,7 +180,6 @@ body {
     width: 100%;
     padding: 2% 3%;
   }
-
 
   .oldstocks {
     background-color: white;

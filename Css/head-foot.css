@@ -47,7 +47,6 @@ header {
   width: 8%;
 }
 
-
 .container {
   margin: 0 0;
 }
@@ -140,9 +139,9 @@ header {
   }
 }
 
-/*slide*/
+/*fin_slide*/
 
-/*POPULARY*/
+/*ARTICLE*/
 
 .preview {
   margin-top: 0px;
@@ -154,7 +153,6 @@ header {
   padding-bottom: 22px;
   opacity: 0.8;
 }
-
 
 .script h3 {
   color: red;
@@ -219,6 +217,10 @@ header {
   padding-bottom: 15px;
 }
 
+/*FIN_ARTICLE*/
+
+/*footer*/
+
 footer {
   margin-top: 30px;
   background-color: white;
@@ -271,3 +273,5 @@ footer {
   margin-right: 10px;
   font-size: 20px;
 }
+
+/*fin footer*/
